@@ -1,7 +1,6 @@
 ---
 layout: index
 title: "Welcome to Amazing Covers"
-permalink: /
 ---
 
 {% for post in site.posts %}
