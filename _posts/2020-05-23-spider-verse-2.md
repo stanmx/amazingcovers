@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spider-Verse #2"
-date: 2020-05-23 2:45:00
+date: 2020-05-23 14:45:00
 category: Marvel
 image: /assets/covers/spider-verse-02.jpg
 ---
