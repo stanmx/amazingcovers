@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+
+  	<div id="header">
+  		<div class="fold">
+			<h1><a title="{{ site.title }}" href="/">{{ site.title }}</a></h1>
+		</div><!-- end /.fold -->
+	</div><!-- end /#header -->
+
+	<div id="content">
+		<div class="fold">
+    		{{ content }}
+    	</div><!-- end /.fold -->
+    </div><!-- end /#content -->
+
+	<div id="copyright">
+    	<div class="fold">
+    		<p>Made with <a title="Jekyll • Simple, blog-aware, static sites" href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
+    	</div><!-- end /.fold -->
+    </div><!-- end /#copyright -->
+
+  </body>
+</html>
